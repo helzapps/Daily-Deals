@@ -14,13 +14,14 @@
 		13C31049148BDEAC00C67B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31048148BDEAC00C67B57 /* main.m */; };
 		13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */; };
 		13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */; };
-		13C31052148BDEAC00C67B57 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31051148BDEAC00C67B57 /* first.png */; };
-		13C31054148BDEAC00C67B57 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31053148BDEAC00C67B57 /* first@2x.png */; };
 		13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */; };
-		13C31059148BDEAC00C67B57 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31058148BDEAC00C67B57 /* second.png */; };
-		13C3105B148BDEAC00C67B57 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105A148BDEAC00C67B57 /* second@2x.png */; };
-		13C3105E148BDEAC00C67B57 /* DailyDealsFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */; };
-		13C31061148BDEAC00C67B57 /* DailyDealsSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */; };
+		13C310AA148BE04000C67B57 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A3148BE04000C67B57 /* first.png */; };
+		13C310AB148BE04000C67B57 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A4148BE04000C67B57 /* first@2x.png */; };
+		13C310AC148BE04000C67B57 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A5148BE04000C67B57 /* second.png */; };
+		13C310AD148BE04000C67B57 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A6148BE04000C67B57 /* second@2x.png */; };
+		13C310AE148BE04000C67B57 /* DailyDealsFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */; };
+		13C310AF148BE04000C67B57 /* DailyDealsSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */; };
+		13C310B2148BE09800C67B57 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C310B1148BE09800C67B57 /* BaseRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +29,24 @@
 		13C3103C148BDEAC00C67B57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13C3103E148BDEAC00C67B57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13C31040148BDEAC00C67B57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		13C31044148BDEAC00C67B57 /* Daily Deals-Info.plist */ = {isa = PBXFileReference; path = "Daily Deals-Info.plist"; sourceTree = "<group>"; };
+		13C31044148BDEAC00C67B57 /* Daily Deals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Daily Deals-Info.plist"; sourceTree = "<group>"; };
 		13C31046148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13C31048148BDEAC00C67B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */ = {isa = PBXFileReference; path = "Daily Deals-Prefix.pch"; sourceTree = "<group>"; };
-		13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */ = {isa = PBXFileReference; path = DailyDealsAppDelegate.h; sourceTree = "<group>"; };
+		13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily Deals-Prefix.pch"; sourceTree = "<group>"; };
+		13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsAppDelegate.h; sourceTree = "<group>"; };
 		13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsAppDelegate.m; sourceTree = "<group>"; };
-		13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */ = {isa = PBXFileReference; path = DailyDealsFirstViewController.h; sourceTree = "<group>"; };
+		13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsFirstViewController.h; sourceTree = "<group>"; };
 		13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsFirstViewController.m; sourceTree = "<group>"; };
-		13C31051148BDEAC00C67B57 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		13C31053148BDEAC00C67B57 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */ = {isa = PBXFileReference; path = DailyDealsSecondViewController.h; sourceTree = "<group>"; };
+		13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsSecondViewController.h; sourceTree = "<group>"; };
 		13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsSecondViewController.m; sourceTree = "<group>"; };
-		13C31058148BDEAC00C67B57 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		13C3105A148BDEAC00C67B57 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		13C3105D148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DailyDealsFirstViewController.xib; sourceTree = "<group>"; };
-		13C31060148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DailyDealsSecondViewController.xib; sourceTree = "<group>"; };
+		13C310A3148BE04000C67B57 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		13C310A4148BE04000C67B57 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		13C310A5148BE04000C67B57 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		13C310A6148BE04000C67B57 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyDealsFirstViewController.xib; sourceTree = "<group>"; };
+		13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyDealsSecondViewController.xib; sourceTree = "<group>"; };
+		13C310B0148BE09800C67B57 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseRequest.h; path = "../../../SDSU Teacher Rater/SDSU Teacher Rater/BaseRequest.h"; sourceTree = "<group>"; };
+		13C310B1148BE09800C67B57 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseRequest.m; path = "../../../SDSU Teacher Rater/SDSU Teacher Rater/BaseRequest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,18 +93,15 @@
 		13C31042148BDEAC00C67B57 /* Daily Deals */ = {
 			isa = PBXGroup;
 			children = (
+				13C310B0148BE09800C67B57 /* BaseRequest.h */,
+				13C310B1148BE09800C67B57 /* BaseRequest.m */,
 				13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */,
 				13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */,
 				13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */,
 				13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */,
-				13C31051148BDEAC00C67B57 /* first.png */,
-				13C31053148BDEAC00C67B57 /* first@2x.png */,
 				13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */,
 				13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */,
-				13C31058148BDEAC00C67B57 /* second.png */,
-				13C3105A148BDEAC00C67B57 /* second@2x.png */,
-				13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */,
-				13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */,
+				13C310A1148BE04000C67B57 /* Resources */,
 				13C31043148BDEAC00C67B57 /* Supporting Files */,
 			);
 			path = "Daily Deals";
@@ -116,6 +116,35 @@
 				13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13C310A1148BE04000C67B57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13C310A2148BE04000C67B57 /* Images */,
+				13C310A7148BE04000C67B57 /* Xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13C310A2148BE04000C67B57 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				13C310A3148BE04000C67B57 /* first.png */,
+				13C310A4148BE04000C67B57 /* first@2x.png */,
+				13C310A5148BE04000C67B57 /* second.png */,
+				13C310A6148BE04000C67B57 /* second@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		13C310A7148BE04000C67B57 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */,
+				13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C31047148BDEAC00C67B57 /* InfoPlist.strings in Resources */,
-				13C31052148BDEAC00C67B57 /* first.png in Resources */,
-				13C31054148BDEAC00C67B57 /* first@2x.png in Resources */,
-				13C31059148BDEAC00C67B57 /* second.png in Resources */,
-				13C3105B148BDEAC00C67B57 /* second@2x.png in Resources */,
-				13C3105E148BDEAC00C67B57 /* DailyDealsFirstViewController.xib in Resources */,
-				13C31061148BDEAC00C67B57 /* DailyDealsSecondViewController.xib in Resources */,
+				13C310AA148BE04000C67B57 /* first.png in Resources */,
+				13C310AB148BE04000C67B57 /* first@2x.png in Resources */,
+				13C310AC148BE04000C67B57 /* second.png in Resources */,
+				13C310AD148BE04000C67B57 /* second@2x.png in Resources */,
+				13C310AE148BE04000C67B57 /* DailyDealsFirstViewController.xib in Resources */,
+				13C310AF148BE04000C67B57 /* DailyDealsSecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +218,7 @@
 				13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */,
 				13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */,
 				13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */,
+				13C310B2148BE09800C67B57 /* BaseRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,22 +231,6 @@
 				13C31046148BDEAC00C67B57 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13C3105D148BDEAC00C67B57 /* en */,
-			);
-			name = DailyDealsFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13C31060148BDEAC00C67B57 /* en */,
-			);
-			name = DailyDealsSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
