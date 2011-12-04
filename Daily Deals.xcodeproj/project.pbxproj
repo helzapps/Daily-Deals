@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C3103D148BDEAC00C67B57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103C148BDEAC00C67B57 /* UIKit.framework */; };
+		13C3103F148BDEAC00C67B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103E148BDEAC00C67B57 /* Foundation.framework */; };
+		13C31041148BDEAC00C67B57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C31040148BDEAC00C67B57 /* CoreGraphics.framework */; };
+		13C31047148BDEAC00C67B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13C31045148BDEAC00C67B57 /* InfoPlist.strings */; };
+		13C31049148BDEAC00C67B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31048148BDEAC00C67B57 /* main.m */; };
+		13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */; };
+		13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */; };
+		13C31052148BDEAC00C67B57 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31051148BDEAC00C67B57 /* first.png */; };
+		13C31054148BDEAC00C67B57 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31053148BDEAC00C67B57 /* first@2x.png */; };
+		13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */; };
+		13C31059148BDEAC00C67B57 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C31058148BDEAC00C67B57 /* second.png */; };
+		13C3105B148BDEAC00C67B57 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105A148BDEAC00C67B57 /* second@2x.png */; };
+		13C3105E148BDEAC00C67B57 /* DailyDealsFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */; };
+		13C31061148BDEAC00C67B57 /* DailyDealsSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13C31038148BDEAC00C67B57 /* Daily Deals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Deals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C3103C148BDEAC00C67B57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13C3103E148BDEAC00C67B57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13C31040148BDEAC00C67B57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13C31044148BDEAC00C67B57 /* Daily Deals-Info.plist */ = {isa = PBXFileReference; path = "Daily Deals-Info.plist"; sourceTree = "<group>"; };
+		13C31046148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13C31048148BDEAC00C67B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */ = {isa = PBXFileReference; path = "Daily Deals-Prefix.pch"; sourceTree = "<group>"; };
+		13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */ = {isa = PBXFileReference; path = DailyDealsAppDelegate.h; sourceTree = "<group>"; };
+		13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsAppDelegate.m; sourceTree = "<group>"; };
+		13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */ = {isa = PBXFileReference; path = DailyDealsFirstViewController.h; sourceTree = "<group>"; };
+		13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsFirstViewController.m; sourceTree = "<group>"; };
+		13C31051148BDEAC00C67B57 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		13C31053148BDEAC00C67B57 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */ = {isa = PBXFileReference; path = DailyDealsSecondViewController.h; sourceTree = "<group>"; };
+		13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsSecondViewController.m; sourceTree = "<group>"; };
+		13C31058148BDEAC00C67B57 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		13C3105A148BDEAC00C67B57 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		13C3105D148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DailyDealsFirstViewController.xib; sourceTree = "<group>"; };
+		13C31060148BDEAC00C67B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DailyDealsSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C31035148BDEAC00C67B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C3103D148BDEAC00C67B57 /* UIKit.framework in Frameworks */,
+				13C3103F148BDEAC00C67B57 /* Foundation.framework in Frameworks */,
+				13C31041148BDEAC00C67B57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C3102D148BDEAC00C67B57 = {
+			isa = PBXGroup;
+			children = (
+				13C31042148BDEAC00C67B57 /* Daily Deals */,
+				13C3103B148BDEAC00C67B57 /* Frameworks */,
+				13C31039148BDEAC00C67B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C31039148BDEAC00C67B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C31038148BDEAC00C67B57 /* Daily Deals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C3103B148BDEAC00C67B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13C3103C148BDEAC00C67B57 /* UIKit.framework */,
+				13C3103E148BDEAC00C67B57 /* Foundation.framework */,
+				13C31040148BDEAC00C67B57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13C31042148BDEAC00C67B57 /* Daily Deals */ = {
+			isa = PBXGroup;
+			children = (
+				13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */,
+				13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */,
+				13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */,
+				13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */,
+				13C31051148BDEAC00C67B57 /* first.png */,
+				13C31053148BDEAC00C67B57 /* first@2x.png */,
+				13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */,
+				13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */,
+				13C31058148BDEAC00C67B57 /* second.png */,
+				13C3105A148BDEAC00C67B57 /* second@2x.png */,
+				13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */,
+				13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */,
+				13C31043148BDEAC00C67B57 /* Supporting Files */,
+			);
+			path = "Daily Deals";
+			sourceTree = "<group>";
+		};
+		13C31043148BDEAC00C67B57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C31044148BDEAC00C67B57 /* Daily Deals-Info.plist */,
+				13C31045148BDEAC00C67B57 /* InfoPlist.strings */,
+				13C31048148BDEAC00C67B57 /* main.m */,
+				13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C31037148BDEAC00C67B57 /* Daily Deals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C31064148BDEAC00C67B57 /* Build configuration list for PBXNativeTarget "Daily Deals" */;
+			buildPhases = (
+				13C31034148BDEAC00C67B57 /* Sources */,
+				13C31035148BDEAC00C67B57 /* Frameworks */,
+				13C31036148BDEAC00C67B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Deals";
+			productName = "Daily Deals";
+			productReference = 13C31038148BDEAC00C67B57 /* Daily Deals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C3102F148BDEAC00C67B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 13C31032148BDEAC00C67B57 /* Build configuration list for PBXProject "Daily Deals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13C3102D148BDEAC00C67B57;
+			productRefGroup = 13C31039148BDEAC00C67B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C31037148BDEAC00C67B57 /* Daily Deals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C31036148BDEAC00C67B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C31047148BDEAC00C67B57 /* InfoPlist.strings in Resources */,
+				13C31052148BDEAC00C67B57 /* first.png in Resources */,
+				13C31054148BDEAC00C67B57 /* first@2x.png in Resources */,
+				13C31059148BDEAC00C67B57 /* second.png in Resources */,
+				13C3105B148BDEAC00C67B57 /* second@2x.png in Resources */,
+				13C3105E148BDEAC00C67B57 /* DailyDealsFirstViewController.xib in Resources */,
+				13C31061148BDEAC00C67B57 /* DailyDealsSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C31034148BDEAC00C67B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C31049148BDEAC00C67B57 /* main.m in Sources */,
+				13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */,
+				13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */,
+				13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13C31045148BDEAC00C67B57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C31046148BDEAC00C67B57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13C3105C148BDEAC00C67B57 /* DailyDealsFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C3105D148BDEAC00C67B57 /* en */,
+			);
+			name = DailyDealsFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		13C3105F148BDEAC00C67B57 /* DailyDealsSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C31060148BDEAC00C67B57 /* en */,
+			);
+			name = DailyDealsSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13C31062148BDEAC00C67B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13C31063148BDEAC00C67B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C31065148BDEAC00C67B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Deals/Daily Deals-Prefix.pch";
+				INFOPLIST_FILE = "Daily Deals/Daily Deals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13C31066148BDEAC00C67B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daily Deals/Daily Deals-Prefix.pch";
+				INFOPLIST_FILE = "Daily Deals/Daily Deals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C31032148BDEAC00C67B57 /* Build configuration list for PBXProject "Daily Deals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C31062148BDEAC00C67B57 /* Debug */,
+				13C31063148BDEAC00C67B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C31064148BDEAC00C67B57 /* Build configuration list for PBXNativeTarget "Daily Deals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C31065148BDEAC00C67B57 /* Debug */,
+				13C31066148BDEAC00C67B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C3102F148BDEAC00C67B57 /* Project object */;
+}
