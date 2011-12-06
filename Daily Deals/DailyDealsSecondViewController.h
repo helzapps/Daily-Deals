@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DailyDealsSecondViewController : UIViewController
+@interface DailyDealsSecondViewController : UIViewController <UINavigationControllerDelegate>
 
 @end

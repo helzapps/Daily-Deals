@@ -12,6 +12,16 @@
 		13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C45148BF2E3008C2DF0 /* Default@2x.png */; };
 		13742C4A148C08F7008C2DF0 /* CityListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C49148C08F7008C2DF0 /* CityListRequest.m */; };
 		13742C4D148C102D008C2DF0 /* CityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C4C148C102D008C2DF0 /* CityInfo.m */; };
+		13742C50148D9A8E008C2DF0 /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C4F148D9A8E008C2DF0 /* CoreLocationController.m */; };
+		13742C59148DA6BF008C2DF0 /* plainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C57148DA6BF008C2DF0 /* plainBackground.png */; };
+		13742C5A148DA6BF008C2DF0 /* plainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C58148DA6BF008C2DF0 /* plainBackground@2x.png */; };
+		13742C62148DAD01008C2DF0 /* DeviceReachabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */; };
+		13742C63148DAD01008C2DF0 /* DeviceTypeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */; };
+		13742C67148DAF3C008C2DF0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C65148DAF3B008C2DF0 /* LocationViewController.m */; };
+		13742C6A148DAF67008C2DF0 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C69148DAF67008C2DF0 /* LocationViewController.xib */; };
+		13742C70148E77D9008C2DF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13742C6F148E77D9008C2DF0 /* CoreLocation.framework */; };
+		13742C72148E784B008C2DF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13742C71148E784B008C2DF0 /* SystemConfiguration.framework */; };
+		13742C7C148E8339008C2DF0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C7B148E8339008C2DF0 /* MainWindow.xib */; };
 		13C3103D148BDEAC00C67B57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103C148BDEAC00C67B57 /* UIKit.framework */; };
 		13C3103F148BDEAC00C67B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103E148BDEAC00C67B57 /* Foundation.framework */; };
 		13C31041148BDEAC00C67B57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C31040148BDEAC00C67B57 /* CoreGraphics.framework */; };
@@ -37,6 +47,20 @@
 		13742C49148C08F7008C2DF0 /* CityListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListRequest.m; sourceTree = "<group>"; };
 		13742C4B148C102D008C2DF0 /* CityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInfo.h; sourceTree = "<group>"; };
 		13742C4C148C102D008C2DF0 /* CityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInfo.m; sourceTree = "<group>"; };
+		13742C4E148D9A8E008C2DF0 /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationController.h; sourceTree = "<group>"; };
+		13742C4F148D9A8E008C2DF0 /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationController.m; sourceTree = "<group>"; };
+		13742C57148DA6BF008C2DF0 /* plainBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plainBackground.png; sourceTree = "<group>"; };
+		13742C58148DA6BF008C2DF0 /* plainBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plainBackground@2x.png"; sourceTree = "<group>"; };
+		13742C5E148DAD00008C2DF0 /* DeviceReachabilityHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceReachabilityHelper.h; sourceTree = "<group>"; };
+		13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceReachabilityHelper.m; sourceTree = "<group>"; };
+		13742C60148DAD01008C2DF0 /* DeviceTypeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTypeHelper.h; sourceTree = "<group>"; };
+		13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTypeHelper.m; sourceTree = "<group>"; };
+		13742C64148DAF3B008C2DF0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		13742C65148DAF3B008C2DF0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		13742C69148DAF67008C2DF0 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		13742C6F148E77D9008C2DF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		13742C71148E784B008C2DF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		13742C7B148E8339008C2DF0 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		13C31038148BDEAC00C67B57 /* Daily Deals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Deals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3103C148BDEAC00C67B57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13C3103E148BDEAC00C67B57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13742C72148E784B008C2DF0 /* SystemConfiguration.framework in Frameworks */,
+				13742C70148E77D9008C2DF0 /* CoreLocation.framework in Frameworks */,
 				13C3103D148BDEAC00C67B57 /* UIKit.framework in Frameworks */,
 				13C3103F148BDEAC00C67B57 /* Foundation.framework in Frameworks */,
 				13C31041148BDEAC00C67B57 /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +119,8 @@
 		13C3103B148BDEAC00C67B57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13742C71148E784B008C2DF0 /* SystemConfiguration.framework */,
+				13742C6F148E77D9008C2DF0 /* CoreLocation.framework */,
 				13C3103C148BDEAC00C67B57 /* UIKit.framework */,
 				13C3103E148BDEAC00C67B57 /* Foundation.framework */,
 				13C31040148BDEAC00C67B57 /* CoreGraphics.framework */,
@@ -109,12 +137,20 @@
 				13742C4C148C102D008C2DF0 /* CityInfo.m */,
 				13742C48148C08F7008C2DF0 /* CityListRequest.h */,
 				13742C49148C08F7008C2DF0 /* CityListRequest.m */,
+				13742C4E148D9A8E008C2DF0 /* CoreLocationController.h */,
+				13742C4F148D9A8E008C2DF0 /* CoreLocationController.m */,
 				13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */,
 				13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */,
 				13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */,
 				13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */,
 				13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */,
 				13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */,
+				13742C5E148DAD00008C2DF0 /* DeviceReachabilityHelper.h */,
+				13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */,
+				13742C60148DAD01008C2DF0 /* DeviceTypeHelper.h */,
+				13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */,
+				13742C64148DAF3B008C2DF0 /* LocationViewController.h */,
+				13742C65148DAF3B008C2DF0 /* LocationViewController.m */,
 				13C310A1148BE04000C67B57 /* Resources */,
 				13C31043148BDEAC00C67B57 /* Supporting Files */,
 			);
@@ -144,6 +180,8 @@
 		13C310A2148BE04000C67B57 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				13742C57148DA6BF008C2DF0 /* plainBackground.png */,
+				13742C58148DA6BF008C2DF0 /* plainBackground@2x.png */,
 				13742C44148BF2E3008C2DF0 /* Default.png */,
 				13742C45148BF2E3008C2DF0 /* Default@2x.png */,
 				13C310A3148BE04000C67B57 /* first.png */,
@@ -157,8 +195,10 @@
 		13C310A7148BE04000C67B57 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				13742C69148DAF67008C2DF0 /* LocationViewController.xib */,
 				13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */,
 				13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */,
+				13742C7B148E8339008C2DF0 /* MainWindow.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -222,6 +262,10 @@
 				13C310AF148BE04000C67B57 /* DailyDealsSecondViewController.xib in Resources */,
 				13742C46148BF2E3008C2DF0 /* Default.png in Resources */,
 				13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */,
+				13742C59148DA6BF008C2DF0 /* plainBackground.png in Resources */,
+				13742C5A148DA6BF008C2DF0 /* plainBackground@2x.png in Resources */,
+				13742C6A148DAF67008C2DF0 /* LocationViewController.xib in Resources */,
+				13742C7C148E8339008C2DF0 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +283,10 @@
 				13742C3F148BEE5C008C2DF0 /* BaseRequest.m in Sources */,
 				13742C4A148C08F7008C2DF0 /* CityListRequest.m in Sources */,
 				13742C4D148C102D008C2DF0 /* CityInfo.m in Sources */,
+				13742C50148D9A8E008C2DF0 /* CoreLocationController.m in Sources */,
+				13742C62148DAD01008C2DF0 /* DeviceReachabilityHelper.m in Sources */,
+				13742C63148DAD01008C2DF0 /* DeviceTypeHelper.m in Sources */,
+				13742C67148DAF3C008C2DF0 /* LocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DailyDealsAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface DailyDealsAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+    UITabBarController *tabBarController;
+}
 
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet UITabBarController *tabBarController;
 
 @end

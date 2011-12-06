@@ -7,6 +7,7 @@
 //
 
 #import "DailyDealsFirstViewController.h"
+#import "LocationViewController.h"
 
 @implementation DailyDealsFirstViewController
 
@@ -32,13 +33,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -63,8 +63,15 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    if (interfaceOrientation == UIInterfaceOrientationPortrait) {
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
+- (IBAction)useCurrentLocation:(id)sender {
+    LocationViewController *locationViewController = [[LocationViewController alloc] init];
+    [self.navigationController presentModalViewController:locationViewController animated:YES];
+}
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocationViewController.h"
 
-@interface DailyDealsFirstViewController : UIViewController
+@interface DailyDealsFirstViewController : UIViewController <UINavigationControllerDelegate>
+
+- (IBAction)useCurrentLocation:(id)sender;
 
 @end

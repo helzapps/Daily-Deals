@@ -7,8 +7,14 @@
 //
 
 #import "CityListRequest.h"
+#import "CityInfo.h"
 
 @implementation CityListRequest
+@synthesize cityList;
+
+- (void) createCityList {
+    
+}
 
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
