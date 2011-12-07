@@ -8,11 +8,25 @@
 
 #import "CityListRequest.h"
 #import "CityInfo.h"
+#import <CoreLocation/CoreLocation.h>
 
 @implementation CityListRequest
 @synthesize cityList;
 
-- (void) createCityList {
+- (NSArray *) createCityList: (NSArray *)unprocessedCityList {
+
+    NSMutableArray *listOfCityInfoObjects = [[[NSMutableArray alloc] init] autorelease];
+    for (NSDictionary *cityInformation in unprocessedCityList) {
+        NSDictionary *cordinate = [cityInformation objectForKey:@"location"];
+        CityInfo *cityInfo = [[CityInfo alloc] initWithUname:[cityInformation objectForKey:@"uname"] 
+                                              name:[cityInformation objectForKey:@"name"] 
+                                         longitude:[cordinate objectForKey:@"lng"] 
+                                          latitude:[cordinate objectForKey:@"lat"]];
+        [listOfCityInfoObjects addObject:cityInfo];
+        [cityInfo release];
+    }
+    
+    return listOfCityInfoObjects;
     
 }
 
@@ -23,7 +37,9 @@
     NSError *error;
     NSDictionary *theReturnedData = [NSJSONSerialization JSONObjectWithData:self.receivedData options:NSJSONReadingMutableContainers error:&error];
     
-    NSDictionary *returnData = [NSDictionary dictionaryWithObject:theReturnedData forKey:kServiceResponse];
+    NSArray *unprocessedCityList = [theReturnedData objectForKey:@"result"];
+    
+    NSDictionary *returnData = [NSDictionary dictionaryWithObject:[self createCityList:unprocessedCityList] forKey:kServiceResponse];
     
     [[NSNotificationCenter defaultCenter] postNotificationName: self.theNotification object: self userInfo: returnData];
 
@@ -31,6 +47,7 @@
 
 - (void) dealloc {
     [super dealloc];
+    [cityList release];
 }
 
 

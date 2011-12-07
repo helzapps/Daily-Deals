@@ -10,6 +10,6 @@
 
 @interface CityListRequest : BaseRequest
 
-@property (nonatomic, retain) NSMutableDictionary *cityList;
+@property (nonatomic, retain) NSArray *cityList;
 
 @end

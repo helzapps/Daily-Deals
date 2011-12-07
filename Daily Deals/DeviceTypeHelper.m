@@ -38,8 +38,9 @@
 
 +(void)ShowInternetNotAvailableAlert
 {
+    NSString *errorMessage = @"This application requires an internet connection. Please verify that you have a cellular or WiFi connection.";
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Internet Connection Not Available" 
-													message: @"Please verify that you have a cellular or WiFi connection."
+													message:errorMessage
 												   delegate:self cancelButtonTitle:nil otherButtonTitles: @"OK", nil];
 	[alert show];    
 	[alert release];

@@ -11,6 +11,4 @@
 
 @interface DailyDealsFirstViewController : UIViewController <UINavigationControllerDelegate>
 
-- (IBAction)useCurrentLocation:(id)sender;
-
 @end

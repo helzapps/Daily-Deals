@@ -33,6 +33,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    LocationViewController *locationViewController = [[LocationViewController alloc] init];
+    [self.navigationController presentModalViewController:locationViewController animated:NO];
+    
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
 
 }
 
@@ -70,8 +74,4 @@
     }
 }
 
-- (IBAction)useCurrentLocation:(id)sender {
-    LocationViewController *locationViewController = [[LocationViewController alloc] init];
-    [self.navigationController presentModalViewController:locationViewController animated:YES];
-}
 @end
