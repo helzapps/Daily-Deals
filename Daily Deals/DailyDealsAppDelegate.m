@@ -8,7 +8,7 @@
 
 #import "DailyDealsAppDelegate.h"
 #import "CoreLocationController.h"
-#import "LocationViewController.h"
+#import "SetupViewController.h"
 #import "DeviceTypeHelper.h"
 #import "DailyDealsFirstViewController.h"
 #import "DailyDealsSecondViewController.h"

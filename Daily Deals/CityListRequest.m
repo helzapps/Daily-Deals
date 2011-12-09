@@ -17,17 +17,16 @@
 
     NSMutableArray *listOfCityInfoObjects = [[[NSMutableArray alloc] init] autorelease];
     for (NSDictionary *cityInformation in unprocessedCityList) {
-        NSDictionary *cordinate = [cityInformation objectForKey:@"location"];
+        NSDictionary *coordinate = [cityInformation objectForKey:@"location"];
         CityInfo *cityInfo = [[CityInfo alloc] initWithUname:[cityInformation objectForKey:@"uname"] 
                                               name:[cityInformation objectForKey:@"name"] 
-                                         longitude:[cordinate objectForKey:@"lng"] 
-                                          latitude:[cordinate objectForKey:@"lat"]];
+                                         longitude:[[coordinate objectForKey:@"lng"] doubleValue] 
+                                          latitude:[[coordinate objectForKey:@"lat"] doubleValue]];
         [listOfCityInfoObjects addObject:cityInfo];
         [cityInfo release];
     }
     
     return listOfCityInfoObjects;
-    
 }
 
 
@@ -37,9 +36,12 @@
     NSError *error;
     NSDictionary *theReturnedData = [NSJSONSerialization JSONObjectWithData:self.receivedData options:NSJSONReadingMutableContainers error:&error];
     
-    NSArray *unprocessedCityList = [theReturnedData objectForKey:@"result"];
-    
-    NSDictionary *returnData = [NSDictionary dictionaryWithObject:[self createCityList:unprocessedCityList] forKey:kServiceResponse];
+    NSDictionary *returnData = nil;
+    NSString *requestStatus = [theReturnedData objectForKey:@"info"];
+    if ([requestStatus isEqualToString:@"OK"]) {
+        NSArray *unprocessedCityList = [theReturnedData objectForKey:@"result"];
+        returnData = [NSDictionary dictionaryWithObject:[self createCityList:unprocessedCityList] forKey:kServiceResponse];
+    }
     
     [[NSNotificationCenter defaultCenter] postNotificationName: self.theNotification object: self userInfo: returnData];
 

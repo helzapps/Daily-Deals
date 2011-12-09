@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1331DB0514912D41005E6106 /* SelectACityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331DB0314912D41005E6106 /* SelectACityViewController.m */; };
+		1331DB0814912DC2005E6106 /* SelectACityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331DB0714912DC2005E6106 /* SelectACityViewController.xib */; };
+		1331DB201491855D005E6106 /* PleaseWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331DB1E1491855C005E6106 /* PleaseWaitView.m */; };
+		1331DB2314918609005E6106 /* PleaseWaitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331DB2214918609005E6106 /* PleaseWaitView.xib */; };
 		13742C3F148BEE5C008C2DF0 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C3E148BEE5C008C2DF0 /* BaseRequest.m */; };
 		13742C46148BF2E3008C2DF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C44148BF2E3008C2DF0 /* Default.png */; };
 		13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C45148BF2E3008C2DF0 /* Default@2x.png */; };
@@ -17,11 +21,16 @@
 		13742C5A148DA6BF008C2DF0 /* plainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C58148DA6BF008C2DF0 /* plainBackground@2x.png */; };
 		13742C62148DAD01008C2DF0 /* DeviceReachabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */; };
 		13742C63148DAD01008C2DF0 /* DeviceTypeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */; };
-		13742C67148DAF3C008C2DF0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C65148DAF3B008C2DF0 /* LocationViewController.m */; };
-		13742C6A148DAF67008C2DF0 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C69148DAF67008C2DF0 /* LocationViewController.xib */; };
+		13742C67148DAF3C008C2DF0 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C65148DAF3B008C2DF0 /* SetupViewController.m */; };
+		13742C6A148DAF67008C2DF0 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C69148DAF67008C2DF0 /* SetupViewController.xib */; };
 		13742C70148E77D9008C2DF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13742C6F148E77D9008C2DF0 /* CoreLocation.framework */; };
 		13742C72148E784B008C2DF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13742C71148E784B008C2DF0 /* SystemConfiguration.framework */; };
 		13742C7C148E8339008C2DF0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C7B148E8339008C2DF0 /* MainWindow.xib */; };
+		13742C90148FF8DD008C2DF0 /* CouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C8F148FF8DD008C2DF0 /* CouponCell.xib */; };
+		13742C9414902654008C2DF0 /* CouponTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C9214902652008C2DF0 /* CouponTableViewController.m */; };
+		13742C97149026CB008C2DF0 /* CouponTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13742C96149026CB008C2DF0 /* CouponTableViewController.xib */; };
+		13989FE714906EAE0020363A /* CouponListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13989FE614906EAE0020363A /* CouponListRequest.m */; };
+		13989FEA14907CB80020363A /* CouponInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13989FE914907CB80020363A /* CouponInfo.m */; };
 		13C3103D148BDEAC00C67B57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103C148BDEAC00C67B57 /* UIKit.framework */; };
 		13C3103F148BDEAC00C67B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3103E148BDEAC00C67B57 /* Foundation.framework */; };
 		13C31041148BDEAC00C67B57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C31040148BDEAC00C67B57 /* CoreGraphics.framework */; };
@@ -39,6 +48,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1331DB0214912D41005E6106 /* SelectACityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectACityViewController.h; sourceTree = "<group>"; };
+		1331DB0314912D41005E6106 /* SelectACityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectACityViewController.m; sourceTree = "<group>"; };
+		1331DB0714912DC2005E6106 /* SelectACityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectACityViewController.xib; sourceTree = "<group>"; };
+		1331DB1D1491855C005E6106 /* PleaseWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PleaseWaitView.h; sourceTree = "<group>"; };
+		1331DB1E1491855C005E6106 /* PleaseWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PleaseWaitView.m; sourceTree = "<group>"; };
+		1331DB2214918609005E6106 /* PleaseWaitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PleaseWaitView.xib; sourceTree = "<group>"; };
 		13742C3D148BEE5C008C2DF0 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		13742C3E148BEE5C008C2DF0 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		13742C44148BF2E3008C2DF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -55,12 +70,20 @@
 		13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceReachabilityHelper.m; sourceTree = "<group>"; };
 		13742C60148DAD01008C2DF0 /* DeviceTypeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTypeHelper.h; sourceTree = "<group>"; };
 		13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTypeHelper.m; sourceTree = "<group>"; };
-		13742C64148DAF3B008C2DF0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		13742C65148DAF3B008C2DF0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
-		13742C69148DAF67008C2DF0 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		13742C64148DAF3B008C2DF0 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		13742C65148DAF3B008C2DF0 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		13742C69148DAF67008C2DF0 /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
 		13742C6F148E77D9008C2DF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		13742C71148E784B008C2DF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		13742C7B148E8339008C2DF0 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		13742C8F148FF8DD008C2DF0 /* CouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponCell.xib; sourceTree = "<group>"; };
+		13742C9114902651008C2DF0 /* CouponTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponTableViewController.h; sourceTree = "<group>"; };
+		13742C9214902652008C2DF0 /* CouponTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponTableViewController.m; sourceTree = "<group>"; };
+		13742C96149026CB008C2DF0 /* CouponTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponTableViewController.xib; sourceTree = "<group>"; };
+		13989FE514906EAE0020363A /* CouponListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponListRequest.h; sourceTree = "<group>"; };
+		13989FE614906EAE0020363A /* CouponListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponListRequest.m; sourceTree = "<group>"; };
+		13989FE814907CB80020363A /* CouponInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponInfo.h; sourceTree = "<group>"; };
+		13989FE914907CB80020363A /* CouponInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponInfo.m; sourceTree = "<group>"; };
 		13C31038148BDEAC00C67B57 /* Daily Deals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Deals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3103C148BDEAC00C67B57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13C3103E148BDEAC00C67B57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +162,12 @@
 				13742C49148C08F7008C2DF0 /* CityListRequest.m */,
 				13742C4E148D9A8E008C2DF0 /* CoreLocationController.h */,
 				13742C4F148D9A8E008C2DF0 /* CoreLocationController.m */,
+				13989FE814907CB80020363A /* CouponInfo.h */,
+				13989FE914907CB80020363A /* CouponInfo.m */,
+				13742C9114902651008C2DF0 /* CouponTableViewController.h */,
+				13742C9214902652008C2DF0 /* CouponTableViewController.m */,
+				13989FE514906EAE0020363A /* CouponListRequest.h */,
+				13989FE614906EAE0020363A /* CouponListRequest.m */,
 				13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */,
 				13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */,
 				13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */,
@@ -149,8 +178,12 @@
 				13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */,
 				13742C60148DAD01008C2DF0 /* DeviceTypeHelper.h */,
 				13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */,
-				13742C64148DAF3B008C2DF0 /* LocationViewController.h */,
-				13742C65148DAF3B008C2DF0 /* LocationViewController.m */,
+				1331DB1D1491855C005E6106 /* PleaseWaitView.h */,
+				1331DB1E1491855C005E6106 /* PleaseWaitView.m */,
+				1331DB0214912D41005E6106 /* SelectACityViewController.h */,
+				1331DB0314912D41005E6106 /* SelectACityViewController.m */,
+				13742C64148DAF3B008C2DF0 /* SetupViewController.h */,
+				13742C65148DAF3B008C2DF0 /* SetupViewController.m */,
 				13C310A1148BE04000C67B57 /* Resources */,
 				13C31043148BDEAC00C67B57 /* Supporting Files */,
 			);
@@ -195,10 +228,14 @@
 		13C310A7148BE04000C67B57 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				13742C69148DAF67008C2DF0 /* LocationViewController.xib */,
+				1331DB2214918609005E6106 /* PleaseWaitView.xib */,
+				1331DB0714912DC2005E6106 /* SelectACityViewController.xib */,
+				13742C96149026CB008C2DF0 /* CouponTableViewController.xib */,
+				13742C69148DAF67008C2DF0 /* SetupViewController.xib */,
 				13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */,
 				13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */,
 				13742C7B148E8339008C2DF0 /* MainWindow.xib */,
+				13742C8F148FF8DD008C2DF0 /* CouponCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -264,8 +301,12 @@
 				13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */,
 				13742C59148DA6BF008C2DF0 /* plainBackground.png in Resources */,
 				13742C5A148DA6BF008C2DF0 /* plainBackground@2x.png in Resources */,
-				13742C6A148DAF67008C2DF0 /* LocationViewController.xib in Resources */,
+				13742C6A148DAF67008C2DF0 /* SetupViewController.xib in Resources */,
 				13742C7C148E8339008C2DF0 /* MainWindow.xib in Resources */,
+				13742C90148FF8DD008C2DF0 /* CouponCell.xib in Resources */,
+				13742C97149026CB008C2DF0 /* CouponTableViewController.xib in Resources */,
+				1331DB0814912DC2005E6106 /* SelectACityViewController.xib in Resources */,
+				1331DB2314918609005E6106 /* PleaseWaitView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +327,12 @@
 				13742C50148D9A8E008C2DF0 /* CoreLocationController.m in Sources */,
 				13742C62148DAD01008C2DF0 /* DeviceReachabilityHelper.m in Sources */,
 				13742C63148DAD01008C2DF0 /* DeviceTypeHelper.m in Sources */,
-				13742C67148DAF3C008C2DF0 /* LocationViewController.m in Sources */,
+				13742C67148DAF3C008C2DF0 /* SetupViewController.m in Sources */,
+				13742C9414902654008C2DF0 /* CouponTableViewController.m in Sources */,
+				13989FE714906EAE0020363A /* CouponListRequest.m in Sources */,
+				13989FEA14907CB80020363A /* CouponInfo.m in Sources */,
+				1331DB0514912D41005E6106 /* SelectACityViewController.m in Sources */,
+				1331DB201491855D005E6106 /* PleaseWaitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

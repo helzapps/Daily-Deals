@@ -7,9 +7,12 @@
 //
 
 #import "DailyDealsFirstViewController.h"
-#import "LocationViewController.h"
+#import "SetupViewController.h"
 
 @implementation DailyDealsFirstViewController
+
+@synthesize currentCityInfo;
+@synthesize cityList;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,11 +36,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    LocationViewController *locationViewController = [[LocationViewController alloc] init];
+    SetupViewController *locationViewController = [[SetupViewController alloc] init];
+    locationViewController.delegate = self;
     [self.navigationController presentModalViewController:locationViewController animated:NO];
     
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
 
+}
+
+- (void) setupViewController:(SetupViewController *)controller didFinishFindingLocationWithInfo:(NSDictionary *)setupInfo {
+    self.currentCityInfo = [setupInfo objectForKey:kSetupInfoKeyCityInfo];
+    self.cityList = [setupInfo objectForKey:kSetupInfoKeyListOfCities];
 }
 
 - (void)viewDidUnload

@@ -7,15 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+
 
 @interface CityInfo : NSObject
 
 @property (nonatomic, retain) NSString *uname;
-@property (nonatomic, retain) NSNumber *longitude;
-@property (nonatomic, retain) NSNumber *latitude;
+@property (nonatomic, assign) double longitude;
+@property (nonatomic, assign) double latitude;
 @property (nonatomic, retain) NSString *name;
 
-- (CityInfo *) initWithUname: (NSString *)_uname name: (NSString *)_name longitude: (NSNumber *)_longitude latitude: (NSNumber *)_latitude;
+- (CityInfo *) initWithUname: (NSString *)_uname name: (NSString *)_name longitude: (double)_longitude latitude: (double)_latitude;
 
 @end

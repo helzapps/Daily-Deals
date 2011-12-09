@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LocationViewController.h"
+#import "SetupViewController.h"
+#import "CityInfo.h"
 
-@interface DailyDealsFirstViewController : UIViewController <UINavigationControllerDelegate>
+@interface DailyDealsFirstViewController : UIViewController <SetupViewControllerDelegate, UINavigationControllerDelegate>
+
+@property (retain, nonatomic) CityInfo *currentCityInfo;
+@property (retain, nonatomic) NSArray *cityList;
+
+- (void) setupViewController:(SetupViewController *)controller didFinishFindingLocationWithInfo:(NSDictionary *)setupInfo;
+
 
 @end

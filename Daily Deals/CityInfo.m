@@ -11,11 +11,11 @@
 @implementation CityInfo
 
 @synthesize uname;
+@synthesize name;
 @synthesize longitude;
 @synthesize latitude;
-@synthesize name;
 
-- (CityInfo *) initWithUname: (NSString *)_uname name: (NSString *)_name longitude: (NSNumber *)_longitude latitude: (NSNumber *)_latitude {
+- (CityInfo *) initWithUname: (NSString *)_uname name: (NSString *)_name longitude: (double)_longitude latitude: (double)_latitude {
     self.uname = _uname;
     self.name = _name;
     self.longitude = _longitude;
@@ -28,8 +28,6 @@
     [super dealloc];
     [uname release];
     [name release];
-    [longitude release];
-    [latitude release];
 }
 
 @end
