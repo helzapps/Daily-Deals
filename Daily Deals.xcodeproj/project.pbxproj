@@ -37,13 +37,11 @@
 		13C31047148BDEAC00C67B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13C31045148BDEAC00C67B57 /* InfoPlist.strings */; };
 		13C31049148BDEAC00C67B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31048148BDEAC00C67B57 /* main.m */; };
 		13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */; };
-		13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */; };
 		13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */; };
 		13C310AA148BE04000C67B57 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A3148BE04000C67B57 /* first.png */; };
 		13C310AB148BE04000C67B57 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A4148BE04000C67B57 /* first@2x.png */; };
 		13C310AC148BE04000C67B57 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A5148BE04000C67B57 /* second.png */; };
 		13C310AD148BE04000C67B57 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A6148BE04000C67B57 /* second@2x.png */; };
-		13C310AE148BE04000C67B57 /* DailyDealsFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */; };
 		13C310AF148BE04000C67B57 /* DailyDealsSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -94,15 +92,12 @@
 		13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily Deals-Prefix.pch"; sourceTree = "<group>"; };
 		13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsAppDelegate.h; sourceTree = "<group>"; };
 		13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsAppDelegate.m; sourceTree = "<group>"; };
-		13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsFirstViewController.h; sourceTree = "<group>"; };
-		13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsFirstViewController.m; sourceTree = "<group>"; };
 		13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyDealsSecondViewController.h; sourceTree = "<group>"; };
 		13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyDealsSecondViewController.m; sourceTree = "<group>"; };
 		13C310A3148BE04000C67B57 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		13C310A4148BE04000C67B57 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		13C310A5148BE04000C67B57 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		13C310A6148BE04000C67B57 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyDealsFirstViewController.xib; sourceTree = "<group>"; };
 		13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailyDealsSecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,8 +165,6 @@
 				13989FE614906EAE0020363A /* CouponListRequest.m */,
 				13C3104B148BDEAC00C67B57 /* DailyDealsAppDelegate.h */,
 				13C3104C148BDEAC00C67B57 /* DailyDealsAppDelegate.m */,
-				13C3104E148BDEAC00C67B57 /* DailyDealsFirstViewController.h */,
-				13C3104F148BDEAC00C67B57 /* DailyDealsFirstViewController.m */,
 				13C31055148BDEAC00C67B57 /* DailyDealsSecondViewController.h */,
 				13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */,
 				13742C5E148DAD00008C2DF0 /* DeviceReachabilityHelper.h */,
@@ -232,7 +225,6 @@
 				1331DB0714912DC2005E6106 /* SelectACityViewController.xib */,
 				13742C96149026CB008C2DF0 /* CouponTableViewController.xib */,
 				13742C69148DAF67008C2DF0 /* SetupViewController.xib */,
-				13C310A8148BE04000C67B57 /* DailyDealsFirstViewController.xib */,
 				13C310A9148BE04000C67B57 /* DailyDealsSecondViewController.xib */,
 				13742C7B148E8339008C2DF0 /* MainWindow.xib */,
 				13742C8F148FF8DD008C2DF0 /* CouponCell.xib */,
@@ -295,7 +287,6 @@
 				13C310AB148BE04000C67B57 /* first@2x.png in Resources */,
 				13C310AC148BE04000C67B57 /* second.png in Resources */,
 				13C310AD148BE04000C67B57 /* second@2x.png in Resources */,
-				13C310AE148BE04000C67B57 /* DailyDealsFirstViewController.xib in Resources */,
 				13C310AF148BE04000C67B57 /* DailyDealsSecondViewController.xib in Resources */,
 				13742C46148BF2E3008C2DF0 /* Default.png in Resources */,
 				13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */,
@@ -319,7 +310,6 @@
 			files = (
 				13C31049148BDEAC00C67B57 /* main.m in Sources */,
 				13C3104D148BDEAC00C67B57 /* DailyDealsAppDelegate.m in Sources */,
-				13C31050148BDEAC00C67B57 /* DailyDealsFirstViewController.m in Sources */,
 				13C31057148BDEAC00C67B57 /* DailyDealsSecondViewController.m in Sources */,
 				13742C3F148BEE5C008C2DF0 /* BaseRequest.m in Sources */,
 				13742C4A148C08F7008C2DF0 /* CityListRequest.m in Sources */,
