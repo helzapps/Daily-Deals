@@ -31,6 +31,8 @@
 @synthesize imageData;
 @synthesize price;
 @synthesize categories;
+@synthesize saving;
+@synthesize originalPrice;
 
 - (void) dealloc {
     [super dealloc];
@@ -50,6 +52,8 @@
     [imageData release];
     [price release];
     [categories release];
+    [saving release];
+    [originalPrice release];
 }
 
 @end
