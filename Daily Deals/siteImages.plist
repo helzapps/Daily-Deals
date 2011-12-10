@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>siteImages</key>
+	<dict>
+		<key>myunclevinny</key>
+		<string>uncleVinny</string>
+		<key>zozi</key>
+		<string>zozi</string>
+		<key>tippr</key>
+		<string>tippr</string>
+		<key>livingsocial</key>
+		<string>livingsocial</string>
+		<key>kgbdeals</key>
+		<string>kgbdeals</string>
+		<key>groupon</key>
+		<string>groupon</string>
+		<key>dealon</key>
+		<string>dealOn</string>
+		<key>travelzoo</key>
+		<string>travelZoo</string>
+		<key>crowdsavings</key>
+		<string>crowdSavings</string>
+		<key>yelp</key>
+		<string>yelp</string>
+		<key>socialbuy</key>
+		<string>socialBuy</string>
+		<key>signonsandiego</key>
+		<string>signOnSanDiego</string>
+		<key>plumdistrict</key>
+		<string>plumdistrict</string>
+		<key>homerun</key>
+		<string>homeRun</string>
+		<key>freshguide</key>
+		<string>freshGuide</string>
+		<key>facebook</key>
+		<string>facebook</string>
+		<key>eversave</key>
+		<string>eversave</string>
+		<key>dailydealster</key>
+		<string>dailyDealster</string>
+		<key>buywithme</key>
+		<string>buyWithMe</string>
+		<key>bargaincrowd</key>
+		<string>bargainCrowd</string>
+	</dict>
+</dict>
+</plist>

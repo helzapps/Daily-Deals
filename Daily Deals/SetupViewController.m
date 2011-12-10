@@ -128,7 +128,6 @@ NSString * const kSetupInfoKeyListOfCoupons = @"ListOfCoupons";
 
 - (void) requestForCityListReturned: (NSNotification *) notification {
     [[NSNotificationCenter defaultCenter] removeObserver: self name:@"requestForCityListReturned" object:nil];
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     
     if (notification.userInfo == nil) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"I'm Sorry"
@@ -138,6 +137,8 @@ NSString * const kSetupInfoKeyListOfCoupons = @"ListOfCoupons";
                                               otherButtonTitles:nil];
         [alert show];
         [alert release];
+        
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     } else {
         
         self.listOfCities = [notification.userInfo objectForKey:kServiceResponse];

@@ -82,7 +82,7 @@ NSString * const kSelectACityKeyCityInfo = @"SelectedCityInfo";
 }
 
 - (CityInfo *)findCityInfowith: (NSString *) cityName {
-    CityInfo *cityInfoToReturn;
+    CityInfo *cityInfoToReturn = [[[CityInfo alloc] init] autorelease];
     for (CityInfo *cityInfoToCheck in cityList) {
         if ([cityName isEqualToString:cityInfoToCheck.name]) {
             cityInfoToReturn = cityInfoToCheck;

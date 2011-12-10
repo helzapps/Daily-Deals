@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@class PleaseWaitView;
+
+@protocol PleaseWaitViewDelegate <NSObject>
+
+@optional
+
+- (void) dismissViewPleaseWaitView;
+
+@end
 
 @interface PleaseWaitView : UIViewController
 
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (retain, nonatomic) id <PleaseWaitViewDelegate> delegate;
 
 @end

@@ -7,11 +7,6 @@
 //
 
 #import "DailyDealsAppDelegate.h"
-#import "CoreLocationController.h"
-#import "SetupViewController.h"
-#import "DeviceTypeHelper.h"
-#import "DailyDealsFirstViewController.h"
-#import "DailyDealsSecondViewController.h"
 
 @implementation DailyDealsAppDelegate
 
@@ -29,26 +24,6 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     [window addSubview:tabBarController.view];
 }
-
-/*
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    //[[CoreLocationController sharedInstance] startUpdates];
-    
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[DailyDealsFirstViewController alloc] initWithNibName:@"DailyDealsFirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[DailyDealsSecondViewController alloc] initWithNibName:@"DailyDealsSecondViewController" bundle:nil] autorelease];
-    self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
-    self.window.rootViewController = self.tabBarController;
-
-    
-    
-    [self.window makeKeyAndVisible];
-    return YES;
-}
-*/
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -88,19 +63,5 @@
      See also applicationDidEnterBackground:.
      */
 }
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
-{
-}
-*/
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed
-{
-}
-*/
 
 @end

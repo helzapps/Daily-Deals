@@ -11,6 +11,41 @@
 		1331DB0814912DC2005E6106 /* SelectACityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331DB0714912DC2005E6106 /* SelectACityViewController.xib */; };
 		1331DB201491855D005E6106 /* PleaseWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331DB1E1491855C005E6106 /* PleaseWaitView.m */; };
 		1331DB2314918609005E6106 /* PleaseWaitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331DB2214918609005E6106 /* PleaseWaitView.xib */; };
+		135977841491CF460032D236 /* CouponDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135977821491CF460032D236 /* CouponDetailViewController.m */; };
+		135977871491D0020032D236 /* CouponDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135977861491D0020032D236 /* CouponDetailViewController.xib */; };
+		1359779914928AF80032D236 /* bargainCrowd.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778814928AF70032D236 /* bargainCrowd.png */; };
+		1359779A14928AF80032D236 /* buyWithMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778914928AF70032D236 /* buyWithMe.png */; };
+		1359779B14928AF80032D236 /* crowdSavings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778A14928AF70032D236 /* crowdSavings.png */; };
+		1359779C14928AF80032D236 /* dailyDealster.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778B14928AF70032D236 /* dailyDealster.png */; };
+		1359779D14928AF80032D236 /* dealOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778C14928AF70032D236 /* dealOn.png */; };
+		1359779E14928AF80032D236 /* eversave.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778D14928AF70032D236 /* eversave.png */; };
+		1359779F14928AF80032D236 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778E14928AF70032D236 /* facebook.png */; };
+		135977A014928AF80032D236 /* freshGuide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359778F14928AF70032D236 /* freshGuide.png */; };
+		135977A114928AF80032D236 /* groupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779014928AF70032D236 /* groupon.png */; };
+		135977A214928AF80032D236 /* homeRun.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779114928AF70032D236 /* homeRun.png */; };
+		135977A314928AF80032D236 /* kgbdeals.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779214928AF70032D236 /* kgbdeals.png */; };
+		135977A414928AF80032D236 /* livingsocial.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779314928AF70032D236 /* livingsocial.png */; };
+		135977A514928AF80032D236 /* plumdistrict.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779414928AF70032D236 /* plumdistrict.png */; };
+		135977A614928AF80032D236 /* socialBuy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779514928AF70032D236 /* socialBuy.png */; };
+		135977A714928AF80032D236 /* tippr.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779614928AF70032D236 /* tippr.png */; };
+		135977A814928AF80032D236 /* uncleVinny.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779714928AF70032D236 /* uncleVinny.png */; };
+		135977A914928AF80032D236 /* zozi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1359779814928AF70032D236 /* zozi.png */; };
+		135977AC149290F80032D236 /* siteImageBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977AA149290F80032D236 /* siteImageBackground.png */; };
+		135977AD149290F80032D236 /* siteImageBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977AB149290F80032D236 /* siteImageBackground@2x.png */; };
+		135977B01492A0CE0032D236 /* buttonLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977AE1492A0CE0032D236 /* buttonLarge.png */; };
+		135977B11492A0CE0032D236 /* buttonLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977AF1492A0CE0032D236 /* buttonLarge@2x.png */; };
+		135977B41492A7670032D236 /* buttonLargePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977B21492A7670032D236 /* buttonLargePressed.png */; };
+		135977B51492A7670032D236 /* buttonLargePressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977B31492A7670032D236 /* buttonLargePressed@2x.png */; };
+		135977B81492C8EB0032D236 /* cellImageBackgound.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977B61492C8EB0032D236 /* cellImageBackgound.png */; };
+		135977B91492C8EB0032D236 /* cellImageBackgound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 135977B71492C8EB0032D236 /* cellImageBackgound@2x.png */; };
+		136EEACF1492DCF400ACAC66 /* couponDetailCouponImagebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 136EEACD1492DCF400ACAC66 /* couponDetailCouponImagebg.png */; };
+		136EEAD01492DCF400ACAC66 /* couponDetailCouponImagebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136EEACE1492DCF400ACAC66 /* couponDetailCouponImagebg@2x.png */; };
+		136EEAD814933CD200ACAC66 /* signOnSanDiego.png in Resources */ = {isa = PBXBuildFile; fileRef = 136EEAD514933CD200ACAC66 /* signOnSanDiego.png */; };
+		136EEAD914933CD200ACAC66 /* travelZoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 136EEAD614933CD200ACAC66 /* travelZoo.png */; };
+		136EEADA14933CD200ACAC66 /* yelp.png in Resources */ = {isa = PBXBuildFile; fileRef = 136EEAD714933CD200ACAC66 /* yelp.png */; };
+		136EEADC149348AA00ACAC66 /* siteImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 136EEADB149348AA00ACAC66 /* siteImages.plist */; };
+		136EEAE01493B8DE00ACAC66 /* GenericWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136EEADE1493B8DD00ACAC66 /* GenericWebController.m */; };
+		136EEAE31493B96300ACAC66 /* GenericWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136EEAE21493B96300ACAC66 /* GenericWebController.xib */; };
 		13742C3F148BEE5C008C2DF0 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13742C3E148BEE5C008C2DF0 /* BaseRequest.m */; };
 		13742C46148BF2E3008C2DF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C44148BF2E3008C2DF0 /* Default.png */; };
 		13742C47148BF2E3008C2DF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13742C45148BF2E3008C2DF0 /* Default@2x.png */; };
@@ -52,6 +87,43 @@
 		1331DB1D1491855C005E6106 /* PleaseWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PleaseWaitView.h; sourceTree = "<group>"; };
 		1331DB1E1491855C005E6106 /* PleaseWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PleaseWaitView.m; sourceTree = "<group>"; };
 		1331DB2214918609005E6106 /* PleaseWaitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PleaseWaitView.xib; sourceTree = "<group>"; };
+		135977811491CF460032D236 /* CouponDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponDetailViewController.h; sourceTree = "<group>"; };
+		135977821491CF460032D236 /* CouponDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponDetailViewController.m; sourceTree = "<group>"; };
+		135977861491D0020032D236 /* CouponDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponDetailViewController.xib; sourceTree = "<group>"; };
+		1359778814928AF70032D236 /* bargainCrowd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bargainCrowd.png; sourceTree = "<group>"; };
+		1359778914928AF70032D236 /* buyWithMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyWithMe.png; sourceTree = "<group>"; };
+		1359778A14928AF70032D236 /* crowdSavings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crowdSavings.png; sourceTree = "<group>"; };
+		1359778B14928AF70032D236 /* dailyDealster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dailyDealster.png; sourceTree = "<group>"; };
+		1359778C14928AF70032D236 /* dealOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dealOn.png; sourceTree = "<group>"; };
+		1359778D14928AF70032D236 /* eversave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eversave.png; sourceTree = "<group>"; };
+		1359778E14928AF70032D236 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		1359778F14928AF70032D236 /* freshGuide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freshGuide.png; sourceTree = "<group>"; };
+		1359779014928AF70032D236 /* groupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groupon.png; sourceTree = "<group>"; };
+		1359779114928AF70032D236 /* homeRun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeRun.png; sourceTree = "<group>"; };
+		1359779214928AF70032D236 /* kgbdeals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kgbdeals.png; sourceTree = "<group>"; };
+		1359779314928AF70032D236 /* livingsocial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livingsocial.png; sourceTree = "<group>"; };
+		1359779414928AF70032D236 /* plumdistrict.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumdistrict.png; sourceTree = "<group>"; };
+		1359779514928AF70032D236 /* socialBuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialBuy.png; sourceTree = "<group>"; };
+		1359779614928AF70032D236 /* tippr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tippr.png; sourceTree = "<group>"; };
+		1359779714928AF70032D236 /* uncleVinny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncleVinny.png; sourceTree = "<group>"; };
+		1359779814928AF70032D236 /* zozi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zozi.png; sourceTree = "<group>"; };
+		135977AA149290F80032D236 /* siteImageBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siteImageBackground.png; sourceTree = "<group>"; };
+		135977AB149290F80032D236 /* siteImageBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "siteImageBackground@2x.png"; sourceTree = "<group>"; };
+		135977AE1492A0CE0032D236 /* buttonLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLarge.png; sourceTree = "<group>"; };
+		135977AF1492A0CE0032D236 /* buttonLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonLarge@2x.png"; sourceTree = "<group>"; };
+		135977B21492A7670032D236 /* buttonLargePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLargePressed.png; sourceTree = "<group>"; };
+		135977B31492A7670032D236 /* buttonLargePressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonLargePressed@2x.png"; sourceTree = "<group>"; };
+		135977B61492C8EB0032D236 /* cellImageBackgound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellImageBackgound.png; sourceTree = "<group>"; };
+		135977B71492C8EB0032D236 /* cellImageBackgound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellImageBackgound@2x.png"; sourceTree = "<group>"; };
+		136EEACD1492DCF400ACAC66 /* couponDetailCouponImagebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couponDetailCouponImagebg.png; sourceTree = "<group>"; };
+		136EEACE1492DCF400ACAC66 /* couponDetailCouponImagebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couponDetailCouponImagebg@2x.png"; sourceTree = "<group>"; };
+		136EEAD514933CD200ACAC66 /* signOnSanDiego.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signOnSanDiego.png; sourceTree = "<group>"; };
+		136EEAD614933CD200ACAC66 /* travelZoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travelZoo.png; sourceTree = "<group>"; };
+		136EEAD714933CD200ACAC66 /* yelp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yelp.png; sourceTree = "<group>"; };
+		136EEADB149348AA00ACAC66 /* siteImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = siteImages.plist; sourceTree = "<group>"; };
+		136EEADD1493B8DD00ACAC66 /* GenericWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericWebController.h; sourceTree = "<group>"; };
+		136EEADE1493B8DD00ACAC66 /* GenericWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericWebController.m; sourceTree = "<group>"; };
+		136EEAE21493B96300ACAC66 /* GenericWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericWebController.xib; sourceTree = "<group>"; };
 		13742C3D148BEE5C008C2DF0 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		13742C3E148BEE5C008C2DF0 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		13742C44148BF2E3008C2DF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -157,6 +229,8 @@
 				13742C49148C08F7008C2DF0 /* CityListRequest.m */,
 				13742C4E148D9A8E008C2DF0 /* CoreLocationController.h */,
 				13742C4F148D9A8E008C2DF0 /* CoreLocationController.m */,
+				135977811491CF460032D236 /* CouponDetailViewController.h */,
+				135977821491CF460032D236 /* CouponDetailViewController.m */,
 				13989FE814907CB80020363A /* CouponInfo.h */,
 				13989FE914907CB80020363A /* CouponInfo.m */,
 				13742C9114902651008C2DF0 /* CouponTableViewController.h */,
@@ -169,6 +243,8 @@
 				13C31056148BDEAC00C67B57 /* DailyDealsSecondViewController.m */,
 				13742C5E148DAD00008C2DF0 /* DeviceReachabilityHelper.h */,
 				13742C5F148DAD00008C2DF0 /* DeviceReachabilityHelper.m */,
+				136EEADD1493B8DD00ACAC66 /* GenericWebController.h */,
+				136EEADE1493B8DD00ACAC66 /* GenericWebController.m */,
 				13742C60148DAD01008C2DF0 /* DeviceTypeHelper.h */,
 				13742C61148DAD01008C2DF0 /* DeviceTypeHelper.m */,
 				1331DB1D1491855C005E6106 /* PleaseWaitView.h */,
@@ -190,6 +266,7 @@
 				13C31045148BDEAC00C67B57 /* InfoPlist.strings */,
 				13C31048148BDEAC00C67B57 /* main.m */,
 				13C3104A148BDEAC00C67B57 /* Daily Deals-Prefix.pch */,
+				136EEADB149348AA00ACAC66 /* siteImages.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,6 +283,36 @@
 		13C310A2148BE04000C67B57 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				136EEAD514933CD200ACAC66 /* signOnSanDiego.png */,
+				136EEAD614933CD200ACAC66 /* travelZoo.png */,
+				136EEAD714933CD200ACAC66 /* yelp.png */,
+				136EEACD1492DCF400ACAC66 /* couponDetailCouponImagebg.png */,
+				136EEACE1492DCF400ACAC66 /* couponDetailCouponImagebg@2x.png */,
+				135977B61492C8EB0032D236 /* cellImageBackgound.png */,
+				135977B71492C8EB0032D236 /* cellImageBackgound@2x.png */,
+				135977B21492A7670032D236 /* buttonLargePressed.png */,
+				135977B31492A7670032D236 /* buttonLargePressed@2x.png */,
+				135977AE1492A0CE0032D236 /* buttonLarge.png */,
+				135977AF1492A0CE0032D236 /* buttonLarge@2x.png */,
+				135977AA149290F80032D236 /* siteImageBackground.png */,
+				135977AB149290F80032D236 /* siteImageBackground@2x.png */,
+				1359778814928AF70032D236 /* bargainCrowd.png */,
+				1359778914928AF70032D236 /* buyWithMe.png */,
+				1359778A14928AF70032D236 /* crowdSavings.png */,
+				1359778B14928AF70032D236 /* dailyDealster.png */,
+				1359778C14928AF70032D236 /* dealOn.png */,
+				1359778D14928AF70032D236 /* eversave.png */,
+				1359778E14928AF70032D236 /* facebook.png */,
+				1359778F14928AF70032D236 /* freshGuide.png */,
+				1359779014928AF70032D236 /* groupon.png */,
+				1359779114928AF70032D236 /* homeRun.png */,
+				1359779214928AF70032D236 /* kgbdeals.png */,
+				1359779314928AF70032D236 /* livingsocial.png */,
+				1359779414928AF70032D236 /* plumdistrict.png */,
+				1359779514928AF70032D236 /* socialBuy.png */,
+				1359779614928AF70032D236 /* tippr.png */,
+				1359779714928AF70032D236 /* uncleVinny.png */,
+				1359779814928AF70032D236 /* zozi.png */,
 				13742C57148DA6BF008C2DF0 /* plainBackground.png */,
 				13742C58148DA6BF008C2DF0 /* plainBackground@2x.png */,
 				13742C44148BF2E3008C2DF0 /* Default.png */,
@@ -221,6 +328,8 @@
 		13C310A7148BE04000C67B57 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				136EEAE21493B96300ACAC66 /* GenericWebController.xib */,
+				135977861491D0020032D236 /* CouponDetailViewController.xib */,
 				1331DB2214918609005E6106 /* PleaseWaitView.xib */,
 				1331DB0714912DC2005E6106 /* SelectACityViewController.xib */,
 				13742C96149026CB008C2DF0 /* CouponTableViewController.xib */,
@@ -298,6 +407,39 @@
 				13742C97149026CB008C2DF0 /* CouponTableViewController.xib in Resources */,
 				1331DB0814912DC2005E6106 /* SelectACityViewController.xib in Resources */,
 				1331DB2314918609005E6106 /* PleaseWaitView.xib in Resources */,
+				135977871491D0020032D236 /* CouponDetailViewController.xib in Resources */,
+				1359779914928AF80032D236 /* bargainCrowd.png in Resources */,
+				1359779A14928AF80032D236 /* buyWithMe.png in Resources */,
+				1359779B14928AF80032D236 /* crowdSavings.png in Resources */,
+				1359779C14928AF80032D236 /* dailyDealster.png in Resources */,
+				1359779D14928AF80032D236 /* dealOn.png in Resources */,
+				1359779E14928AF80032D236 /* eversave.png in Resources */,
+				1359779F14928AF80032D236 /* facebook.png in Resources */,
+				135977A014928AF80032D236 /* freshGuide.png in Resources */,
+				135977A114928AF80032D236 /* groupon.png in Resources */,
+				135977A214928AF80032D236 /* homeRun.png in Resources */,
+				135977A314928AF80032D236 /* kgbdeals.png in Resources */,
+				135977A414928AF80032D236 /* livingsocial.png in Resources */,
+				135977A514928AF80032D236 /* plumdistrict.png in Resources */,
+				135977A614928AF80032D236 /* socialBuy.png in Resources */,
+				135977A714928AF80032D236 /* tippr.png in Resources */,
+				135977A814928AF80032D236 /* uncleVinny.png in Resources */,
+				135977A914928AF80032D236 /* zozi.png in Resources */,
+				135977AC149290F80032D236 /* siteImageBackground.png in Resources */,
+				135977AD149290F80032D236 /* siteImageBackground@2x.png in Resources */,
+				135977B01492A0CE0032D236 /* buttonLarge.png in Resources */,
+				135977B11492A0CE0032D236 /* buttonLarge@2x.png in Resources */,
+				135977B41492A7670032D236 /* buttonLargePressed.png in Resources */,
+				135977B51492A7670032D236 /* buttonLargePressed@2x.png in Resources */,
+				135977B81492C8EB0032D236 /* cellImageBackgound.png in Resources */,
+				135977B91492C8EB0032D236 /* cellImageBackgound@2x.png in Resources */,
+				136EEACF1492DCF400ACAC66 /* couponDetailCouponImagebg.png in Resources */,
+				136EEAD01492DCF400ACAC66 /* couponDetailCouponImagebg@2x.png in Resources */,
+				136EEAD814933CD200ACAC66 /* signOnSanDiego.png in Resources */,
+				136EEAD914933CD200ACAC66 /* travelZoo.png in Resources */,
+				136EEADA14933CD200ACAC66 /* yelp.png in Resources */,
+				136EEADC149348AA00ACAC66 /* siteImages.plist in Resources */,
+				136EEAE31493B96300ACAC66 /* GenericWebController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +465,8 @@
 				13989FEA14907CB80020363A /* CouponInfo.m in Sources */,
 				1331DB0514912D41005E6106 /* SelectACityViewController.m in Sources */,
 				1331DB201491855D005E6106 /* PleaseWaitView.m in Sources */,
+				135977841491CF460032D236 /* CouponDetailViewController.m in Sources */,
+				136EEAE01493B8DE00ACAC66 /* GenericWebController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

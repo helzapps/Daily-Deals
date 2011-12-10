@@ -30,7 +30,8 @@
 @property (nonatomic, retain) NSString *imageURL;
 @property (nonatomic, retain) NSData *imageData;
 @property (nonatomic, retain) NSString *price;
+@property (nonatomic, retain) NSString *originalPrice;
 @property (nonatomic, retain) NSArray *categories;
-
+@property (nonatomic, retain) NSString *saving;
 
 @end

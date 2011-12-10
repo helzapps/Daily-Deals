@@ -10,6 +10,7 @@
 
 @implementation PleaseWaitView
 @synthesize activityIndicator;
+@synthesize delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,6 +46,10 @@
 - (void) viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     [self.activityIndicator stopAnimating];
+}
+
+- (void) dismissViewPleaseWaitView {
+    [self dismissModalViewControllerAnimated:NO];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

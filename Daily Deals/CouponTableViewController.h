@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "SetupViewController.h"
 #import "SelectACityViewController.h"
+#import "PleaseWaitView.h"
 #import "CityInfo.h"
+#import "CouponDetailViewController.h"
 
 @interface CouponTableViewController : UITableViewController 
     <SetupViewControllerDelegate, 
     SelectACityViewControllerDelegate, 
+    PleaseWaitViewDelegate,
     UITableViewDelegate, 
     UITableViewDataSource>
 
@@ -23,8 +26,11 @@
 @property (retain, nonatomic) IBOutlet UITableViewCell *tableViewCell;
 @property (retain, nonatomic) SelectACityViewController *selectACityViewController;
 @property (retain, nonatomic) SetupViewController *setupViewController;
+@property (assign, nonatomic) BOOL newCitySelected;
+@property (retain, nonatomic) CouponDetailViewController *couponDetailViewController;
 
 - (void) setupViewController:(SetupViewController *)controller didFinishFindingLocationWithInfo:(NSDictionary *)setupInfo;
 - (void) selectACityViewController:(SelectACityViewController *)controller didFinishFindingLocationWithInfo:(CityInfo *)selectedCity;
+- (void) dismissViewPleaseWaitView;
 
 @end

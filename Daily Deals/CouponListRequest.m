@@ -37,6 +37,8 @@
         couponInfo.imageURL = [couponInfoDictionary objectForKey:@"img_url"];
         couponInfo.price = [couponInfoDictionary objectForKey:@"price"];
         couponInfo.categories = [couponInfoDictionary objectForKey:@"categories"];
+        couponInfo.saving = [couponInfoDictionary objectForKey:@"saving"];
+        couponInfo.originalPrice = [couponInfoDictionary objectForKey:@"original_price"];
         
         [listOfCouponInfoObjects addObject:couponInfo];
         [couponInfo release];

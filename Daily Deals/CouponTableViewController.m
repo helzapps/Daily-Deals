@@ -11,13 +11,17 @@
 #import "CouponListRequest.h"
 #import "PleaseWaitView.h"
 
+
 @implementation CouponTableViewController
+
 @synthesize couponList;
 @synthesize cityList;
 @synthesize currentCityInfo;
 @synthesize tableViewCell;
 @synthesize selectACityViewController;
 @synthesize setupViewController;
+@synthesize newCitySelected;
+@synthesize couponDetailViewController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -61,6 +65,7 @@
 	titleLabel.text = [NSString stringWithFormat:@"%@ Deals", currentCityInfo.name];
     [titleLabel sizeToFit];
     self.navigationItem.titleView = titleLabel;
+    self.title = titleLabel.text;
     self.navigationController.navigationBarHidden = NO;
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
     
@@ -72,9 +77,9 @@
     [self presentModalViewController:pleaseWaitView animated:NO];
 }
 
-- (void) hidePleaseWaitView {
+- (void) dismissViewPleaseWaitView {
     [self dismissModalViewControllerAnimated:NO];
-
+    self.newCitySelected = NO;
 }
 
 - (void) requestForCouponList {
@@ -108,27 +113,33 @@
         [alert show];
         [alert release];
     } else {
+        [couponList retain];
         self.couponList = [notification.userInfo objectForKey:kServiceResponse];
         [self.tableView reloadData];
+        
+        UILabel *titleLabel = [[[UILabel alloc] initWithFrame:CGRectMake(0,0,180,50)] autorelease];
+        titleLabel.backgroundColor = [UIColor clearColor];
+        titleLabel.font = [UIFont boldSystemFontOfSize:20.0];
+        titleLabel.textAlignment = UITextAlignmentCenter;
+        titleLabel.textColor = [UIColor whiteColor];
+        titleLabel.text = [NSString stringWithFormat:@"%@ Deals", currentCityInfo.name];
+        [titleLabel sizeToFit];
+        self.navigationItem.titleView = titleLabel;
+        self.title = titleLabel.text;
+        
         [self performSelectorInBackground:@selector(fillInCouponImages) withObject:nil];
-        [self hidePleaseWaitView];
+        [self dismissViewPleaseWaitView];
     }
 }
 
 - (void) selectACityViewController:(SelectACityViewController *)controller didFinishFindingLocationWithInfo:(CityInfo *)selectedCity {
-    [self displayPleaseWaitView];
-    self.currentCityInfo = selectedCity;
-    
-    UILabel *titleLabel = [[[UILabel alloc] initWithFrame:CGRectMake(0,0,180,50)] autorelease];
-	titleLabel.backgroundColor = [UIColor clearColor];
-	titleLabel.font = [UIFont boldSystemFontOfSize:20.0];
-	titleLabel.textAlignment = UITextAlignmentCenter;
-	titleLabel.textColor = [UIColor whiteColor];
-	titleLabel.text = [NSString stringWithFormat:@"%@ Deals", currentCityInfo.name];
-    [titleLabel sizeToFit];
-    self.navigationItem.titleView = titleLabel;
-    
-    [self requestForCouponList];
+    if (![currentCityInfo isEqual:selectedCity]) {
+        self.newCitySelected = YES;
+        [NSObject cancelPreviousPerformRequestsWithTarget: self selector: @selector(fillInCouponImages) object: self];
+        self.currentCityInfo = selectedCity;
+        
+        [self requestForCouponList];
+    }
 }
 
 - (void)viewDidLoad
@@ -139,6 +150,8 @@
         self.setupViewController = [[SetupViewController alloc] init];
         self.setupViewController.delegate = self;
     }
+    
+    self.couponList = [[NSArray alloc] init];
 
     [self.navigationController presentModalViewController:setupViewController animated:NO];
     
@@ -151,14 +164,19 @@
     self.navigationItem.rightBarButtonItem = cities;
     [cities release];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-
+    self.clearsSelectionOnViewWillAppear = YES;
+    
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    [self setCurrentCityInfo:nil];
+    [self setCouponList:nil];
+    [self setCityList:nil];
+    [self setTableViewCell:nil];
+    [self setSelectACityViewController:nil];
+    [self setSetupViewController:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -170,6 +188,10 @@
 {
     [super viewDidAppear:animated];
     [self performSelectorInBackground:@selector(fillInCouponImages) withObject:nil];
+    if (newCitySelected) {
+        [self displayPleaseWaitView];
+        newCitySelected = NO;
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -243,13 +265,13 @@
     }
     
     UIImage *image = [UIImage imageWithData:couponInfo.imageData];
-    CGSize imageSize = CGSizeMake(132.0, 100.0);
+    CGSize imageSize = CGSizeMake(105.0, 79.0);
     UIGraphicsBeginImageContext(imageSize);
     CGRect imageFrame = CGRectMake(0, 0, imageSize.width, imageSize.height);
     [image drawInRect:imageFrame];
     
     UIImageView *imageView;
-    imageView = (UIImageView *)[cell viewWithTag:0];
+    imageView = (UIImageView *)[cell viewWithTag:6];
     imageView.image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
@@ -271,14 +293,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+    NSInteger row = indexPath.row;
+    CouponInfo *couponInfo = [couponList objectAtIndex:row];
+    
+    couponDetailViewController = [[CouponDetailViewController alloc] init];
+    couponDetailViewController.couponInfo = couponInfo;
+    
+    [self.navigationController pushViewController:couponDetailViewController animated:YES];
+    [couponDetailViewController release];
 }
 
 @end
