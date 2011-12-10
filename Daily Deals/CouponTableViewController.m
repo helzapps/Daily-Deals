@@ -283,9 +283,13 @@
     label.text = [NSString stringWithFormat:@"$%@", couponInfo.price];
     
     label = (UILabel *)[cell viewWithTag:3];
-    label.text = [NSString stringWithFormat:@"%@%% Off", couponInfo.discountPercentage];
-    
-    
+    if (couponInfo.discountPercentage != nil) {
+        label.text = [NSString stringWithFormat:@"%@%% Off", couponInfo.discountPercentage];
+        label.hidden = NO;
+    } else {
+        label.hidden = YES;
+    }
+
     return cell;
 }
 

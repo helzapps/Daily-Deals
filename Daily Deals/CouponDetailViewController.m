@@ -103,7 +103,12 @@
     
     self.priceLabel.text = [NSString stringWithFormat:@"$%@", couponInfo.price];
     
-    self.discountPercentageLabel.text = [NSString stringWithFormat:@"%@%% Off", couponInfo.discountPercentage];
+    if (couponInfo.discountPercentage != nil) {
+        self.discountPercentageLabel.text = [NSString stringWithFormat:@"%@%% Off", couponInfo.discountPercentage];
+    } else {
+        discountPercentageLabel.hidden = YES;
+    }
+
     
     if (couponInfo.saving != nil) {
         self.originalPriceLabel.text = [NSString stringWithFormat:@"$%@", couponInfo.originalPrice];
